@@ -1,0 +1,19 @@
+:root {
+  --cor-v1: #00BB96;
+  --cor-v2: #004638;
+}
+
+.cor-v1 {
+  color: #00BB96;
+}
+
+.cor-v2 {
+  color: #004638;
+}
+
+.gradient-txt {
+  background-image: linear-gradient(270deg, #06FFCE 18.36%, #00BB96 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}

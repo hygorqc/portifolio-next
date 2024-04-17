@@ -1,0 +1,77 @@
+.formacao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.formacao-titulo {
+  margin-top: 40px;
+  grid-column: span 2;
+}
+
+
+.box-graduacao {
+  display: grid;
+  gap: 40px;
+  background: linear-gradient(262deg, #019274 0%, #00BD98 100%);
+  width: fit-content;
+  max-width: 480px;
+  padding: 64px 40px;
+  border-radius: 10px;
+  color: var(--cor-v2);
+}
+
+.box-graduacao ul li {
+  color: var(--cor-v2);
+}
+
+.box-graduacao h2 {
+  color: white;
+  font-size: 32px;
+}
+
+.box-graduacao p:nth-child(4) {
+  text-transform: uppercase;
+  color: white;
+}
+
+.formacao-cursos {
+  color: var(--cor-v2);
+  display: grid;
+  gap: 20px;
+  align-content: center;
+}
+
+.cursos li {
+  display: flex;
+  justify-content: space-between;
+}
+
+.formacao-cursos h3,
+.cursos li>span,
+.idiomas li>span {
+  color: var(--cor-v1);
+}
+
+.idiomas li {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width:800px) {
+  .formacao {
+    grid-template-columns: 1fr;
+  }
+
+  .formacao-titulo {
+    grid-column: 1;
+  }
+
+  .formacao-graduacao {
+    place-self: center;
+  }
+
+  .box-graduacao {
+    padding: 30px 20px;
+  }
+}

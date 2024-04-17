@@ -1,0 +1,53 @@
+.tecnologia-bg {
+  background: linear-gradient(262deg, #019274 0%, #00BD98 100%);
+  ;
+  margin-top: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.tecnologias {
+  padding-top: 40px;
+  color: white;
+  position: relative;
+}
+
+.barra {
+  margin: 10px 0px;
+  /* position: relative; */
+  height: 15px;
+  width: 100%;
+  background: #D9D9D9;
+  border-radius: 10px;
+}
+
+.conhecimento {
+  position: absolute;
+  background-color: var(--cor-v2);
+  height: 15px;
+  border-radius: 10px;
+}
+
+.barra-html {
+  width: 95%;
+}
+
+.barra-css {
+  width: 90%;
+}
+
+.barra-ui {
+  width: 70%;
+}
+
+.barra-git {
+  width: 75%;
+}
+
+.barra-js {
+  width: 80%;
+}
+
+.barra-react {
+  width: 20%;
+}
